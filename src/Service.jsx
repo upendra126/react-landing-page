@@ -6,6 +6,7 @@ import Sdata from './Sdata';
 const Service = () => {
     return (
         <>
+        <section id="header">
        <div className="my-5">
         <h1 className="text-center">Our Services </h1>
 
@@ -27,6 +28,7 @@ const Service = () => {
               </div>
               </div>
               </div>
+              </section>
         </>
     )
 }
